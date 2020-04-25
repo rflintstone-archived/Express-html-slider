@@ -5,7 +5,7 @@ GIT (https://git-scm.com/downloads)
 
 Node (https://nodejs.org/en/)
 
-Slider project
+Slider project (https://github.com/RFlintstone/Express-html-slider/archive/master.zip)
 
 ## Afbeeldingen
 1) Kies afbeeldingen (resolutie `1920x1080` aangeraden voor het beste resultaat), het maakt niet uit hoeveel.
