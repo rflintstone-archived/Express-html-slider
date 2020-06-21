@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- #Fonts -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/fonts.css">
+    <!-- #Styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/scrollbar.css"> <!-- Scrollbar styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/main.css"> <!-- Global styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/header-nav.css"> <!-- (Header) Nav styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/home-header.css"> <!-- (Home) Hero image styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/sponsors.css"> <!-- templates/sponsors.html styling -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/footer.css"> <!-- templates/footer.html styling -->
+    <!-- #Scripts -->
+    <script type="application/javascript" rel="script" src="../assets/js/include.js"></script> <!-- Creates the custom include tag which is needed to include templates -->
+</head>
+<body>
+
+
+
+<!-- Create Hero image on home page-->
+<div class="hero-image">
+    <!-- Include (header) nav-->
+    <div class="header-nav" include-html="../templates/header-nav.html"></div>
+    <div class="hero-text">
+        <h1><span id="hero-text-one">Projects</span><br><span id="hero-text-two">Included</span></h1>
+    </div>
+</div>
+
+<!-- Include sponsors-->
+<div class="sponsored-by" include-html="../templates/sponsors.html"></div>
+
+<!-- Include footer -->
+<div include-html="../templates/footer.html"></div>
+
+</body>
+</html>

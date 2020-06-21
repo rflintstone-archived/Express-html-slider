@@ -9,10 +9,12 @@ const config = require('./config.json');
 const port = config.port;
 
 // Express
-app.use(express.static('public'))
+const expressStaticFolder = 'public';
+const loadView = __dirname+'/'+expressStaticFolder;
+app.use(express.static(expressStaticFolder))
 
 app.get('/',function(req,res) {
-    res.sendFile(path.join(__dirname+'/index.html'));
+    res.sendFile(path.join(loadView+'/views/index.html'));
 });
 
 app.use('/', router);
